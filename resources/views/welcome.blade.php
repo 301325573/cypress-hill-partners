@@ -71,7 +71,7 @@
     @include('layouts.partials.headerwelcome')
     
 
-        <section class="flex-center position-ref full-height" style="background-color: rgba(255,100,200,.1)">
+        <section class="flex-center position-ref full-height" style="background-color: rgb(255,255,224)">
 
             <div class="content">
                 <div class="title m-b-md">
@@ -101,93 +101,76 @@
 
         <section id="about" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(0,0,255,.1)">
 
-                <div class="content">
-
-                    <p>hi</p>
-                    <p>hi</p>
-                    <p>hi</p>
-                    <p>hi</p>
-                    <p>hi</p>
-                    <p>hi</p>
-                    
-                        
-                </div>
+             <div class="content">
+                 <p>hi</p>
+                 <p>hi</p>
+                 <p>hi</p>
+                 <p>hi</p>
+                 <p>hi</p>
+                 <p>hi</p>             
+             </div>
     
     
             </section>
             <section id="people" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,100,0.1)">
 
-                    <div class="content">
-    
-                        <p>hi</p>
-                        <p>hi</p>
-                        <p>hi</p>
-                        <p>hi</p>
-                        <p>hi</p>
-                        <p>hi</p>
-                        
-                            
-                    </div>
-        
-        
-                </section>
-
-                <section id="originate" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
                 <div class="content">
-                    
-                            <p>hi</p>
-                            <p>hi</p>
-                            <p>hi</p>
-                            <p>hi</p>
-                            <p>hi</p>
-                            <p>hi</p>
-                            
+    
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                          
+                 </div>
+        
+        
+            </section>
+             <section id="originate" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
+                <div class="content">
+                  
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     
+                 </div>
+          
+          
+            </section>
+             <section id="specialtylending" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
+                 <div class="content">
                                 
-                        </div>
-            
-            
-                    </section>
-
-                    <section id="specialtylending" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
-                            <div class="content">
-                                
-                                        <p>hi</p>
-                                        <p>hi</p>
-                                        <p>hi</p>
-                                        <p>hi</p>
-                                        <p>hi</p>
-                                        <p>hi</p>
-                                        
-                                            
-                                    </div>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>                                
+                 </div>
                         
                         
-                                </section>
+            </section>
 
-                                <section id="contact" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
-                                        <div class="content">
+            <section id="contact" class="w-100 p-3 flex-center position-ref full-height" style="width: 120px; background-color: rgba(100,0,200,0.1)">
+                 <div class="content">
                                             
-                                                    <p>hi</p>
-                                                    <p>hi</p>
-                                                    <p>hi</p>
-                                                    <p>hi</p>
-                                                    <p>hi</p>
-                                                    <p>hi</p>
-                                                    
-                                                        
-                                                </div>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     <p>hi</p>
+                     
+                         
+                 </div>
                                     
                                     
-                                            </section>
+             </section>
 
-              <!-- Bootstrap core JavaScript -->
-      <script src="{{asset('/js/jquery.min.js')}}"></script>
-      <script src="{{asset('/js/bootstrap.bundle.min.js')}}"></script>
-    
-      <!-- Plugin JavaScript -->
-      <script src="{{asset('/js/jquery.easing.min.js')}}"></script>
-    
-      <!-- Custom scripts for this template -->
-      <script src="{{asset('/js/new-age.min.js')}}"></script>
+             @include('layouts.partials.footer')
     </body>
 </html>

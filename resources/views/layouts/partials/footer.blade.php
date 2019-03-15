@@ -23,3 +23,12 @@
                     
  
 </footer>
+             <!-- Bootstrap core JavaScript -->
+             <script src="{{asset('/js/jquery.min.js')}}"></script>
+             <script src="{{asset('/js/bootstrap.bundle.min.js')}}"></script>
+           
+             <!-- Plugin JavaScript -->
+             <script src="{{asset('/js/jquery.easing.min.js')}}"></script>
+           
+             <!-- Custom scripts for this template -->
+             <script src="{{asset('/js/new-age.min.js')}}"></script>

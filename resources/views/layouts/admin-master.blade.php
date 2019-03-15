@@ -6,6 +6,7 @@
     {{-- I DON'T KNOW WHAT THE NEXT LINE OF CODE DOES EVEN THOUGH I HAVE GOOGLED IT SO MANY TIMES --}}
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Cypress Hill Partners</title>
 
@@ -40,8 +41,9 @@
     </style>
 </head>
 <body class="Site">
-    @include('layouts.partials.header')
     
+    @include('layouts.partials.header')
+    admins maybe get a different nav bar admins maybe get a different nav bar admins maybe get a different nav bar admins maybe get a different nav bar admins maybe get a different nav bar
     <main class="stick-bot">
         <div class="container has-text-centered">
             <h1 class="title is-2">Register a New Client</h1>
