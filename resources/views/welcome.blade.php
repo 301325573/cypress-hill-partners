@@ -71,7 +71,7 @@
     @include('layouts.partials.headerwelcome')
     
 
-        <section class="flex-center position-ref full-height" style="background-color: rgb(255,255,224)">
+        <section class="flex-center position-ref full-height" style="background-color: rgb(255,255,247)">
 
             <div class="content">
                 <div class="title m-b-md">
